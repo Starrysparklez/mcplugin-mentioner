@@ -1,0 +1,28 @@
+# Mentioner v1.0.0
+# written by NellyD3v with love <3
+#   https://github.com/NellyD3v
+
+
+# en: What exactly to send to the player mentioned, message or title (message in the middle of screen)?
+# values: title | message
+notify.type: message
+
+# en: What should be sent to the player mentioned?
+# %author% - the one who mentioned
+notify.content: "&dYou were mentioned by &c%author%"
+
+# ---------------------------------
+# below are the title settings
+# (if notify.type is set to 'title')
+
+# If notify.type is set to 'title', specify a subtitle below (title will be notify.content)
+notify.subtitle: "&aDon't forget to reply ;)"
+
+# how many ticks title will appear
+notify.title.fadeIn: 10
+
+# how many ticks title will be displayed
+notify.title.stay: 50
+
+# how many ticks title will fade out
+notify.title.fadeOut: 10
